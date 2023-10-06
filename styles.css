@@ -1,0 +1,62 @@
+/* Reset de estilos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do container */
+.container {
+    background-image: url('fundo.jpg'); /* Substitua 'fundo.jpg' pela sua imagem de fundo */
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo do cabeçalho */
+.header img {
+    width: 150px; /* Ajuste o tamanho da sua foto */
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.header p {
+    font-size: 24px;
+}
+
+/* Estilo do conteúdo */
+.content {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor legibilidade */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.content ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.content li {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
